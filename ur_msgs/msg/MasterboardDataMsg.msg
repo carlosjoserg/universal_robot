@@ -1,11 +1,11 @@
 # This data structure contains the MasterboardData structure
 # used by the Universal Robots controller
 #
-# MasterboardData is part of the data structure being send on the 
+# MasterboardData is part of the data structure being send on the
 # secondary client communications interface
-# 
+#
 # This data structure is send at 10 Hz on TCP port 30002
-# 
+#
 # Documentation can be found on the Universal Robots Support site, article
 # number 16496.
 
@@ -20,7 +20,7 @@ int8 analog_output_domain1
 float64 analog_output0
 float64 analog_output1
 float32 masterboard_temperature
-float32 robot_voltage_48V
+float32 robot_voltage_48v
 float32 robot_current
 float32 master_io_current
 uint8 master_safety_state
